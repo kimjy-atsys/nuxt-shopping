@@ -28,6 +28,7 @@ export default {
     //     await store.dispatch(FETCH_CART_ITEMS)
     // },
     async fetch() {
+      
         await this.$store.dispatch(FETCH_CART_ITEMS)
     },
     // fetch() {
